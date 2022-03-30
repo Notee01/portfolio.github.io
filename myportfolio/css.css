@@ -113,7 +113,8 @@ nav .container ul li.active{
     }
     header{
         padding: 5px 50px;
-        background: white;
+        background: transparent;
+        
         z-index: 11;
     }
     header.sticky{
