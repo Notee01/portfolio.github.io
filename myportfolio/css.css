@@ -739,6 +739,12 @@ p{
     cursor: pointer;
     font-weight: 500;
 }
+.status{
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2PX;
+    font-size: 20PX;
+}
 .SMlogo{
     position: relative;
     display: flex;

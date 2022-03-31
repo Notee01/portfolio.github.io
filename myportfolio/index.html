@@ -192,18 +192,19 @@
                 <p>For any questions or query. Please send me a message</p>
             </div>
             <div class="contactForm" data-aos="fade-up">
-                <form>
+
+                <form action="https://formspree.io/f/mknyvvaj" method="Post" id="myForm">
                     <div class="inputRow">
                         <div class="inputBox">
-                            <input type="text" name="" placeholder="Full Name">
+                            <input type="text" name="" placeholder="Full Name" name="name" required="">
                         </div>
                         <div class="inputBox">
-                            <input type="text" name="" placeholder="Email Address">
+                            <input type="text" name="" placeholder="Email Address" name="email" required="">
                         </div>
                     </div>
                     <div class="inputRow">
                         <div class="inputBox2">
-                            <textarea placeholder="Message"></textarea>
+                            <textarea placeholder="Message" name="message" required=""></textarea>
                         </div>
                     </div>
                     <div class="inputRow">
@@ -213,6 +214,7 @@
                     </div>
                 </form>
             </div>
+            <div class="status" id="status"></div>
             <div class="SMlogo">
                 <ul>
                     <li><a href="https://www.facebook.com/marlon1107/"><img src="static/logos/facebook.ico"></a></li>
